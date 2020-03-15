@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#example1">Выравнивание если знаем высоту</a></li>
+            <li><a href="#example2">Выравнивание если НЕ знаем высоту</a></li>
+            <li><a href="#example3">Выравнивание FLEXBOX align-items: center;</a></li>
+        </ul>
+    </nav>
+
+    <h1>FIRST</h1>
+    <section id="example1">
+        <div class="parent-block">
+                <div class="child-block">
+                    <p>background: #ff7505;</p>
+                    <p>height: 250px;</p>
+                    <p>width: 350px;</p>
+                    <p>position: absolute;</p>
+                    <p>margin: 0 auto;</p>
+                    <p>left: 0;</p>
+                    <p>right: 0;</p>
+                    <p><b>top: calc(50% - 125px);</b></p>
+                </div>
+            </div>
+    </section>
+
+    <h1>SECOND</h1>
+    <section id="example2">
+        <div class="parent-block">
+            <div class="child-block">
+                <p>background: #dfdbd8;</p>
+                <p>width: 350px;</p>
+                <p>position: absolute;</p>
+                <p>margin: 0 auto;</p>
+                <p>left: 0;</p>
+                <p>right: 0;</p>
+                <p><b>top: 50%;</b></p>
+                <p><b>transform: translate(0, -50%);</b></p>
+            </div>
+        </div>
+    </section>
+
+    <h1>THIRD</h1>
+    <section id="example3">
+        <div class="parent-block">
+            <div class="child-block">
+                <h3>Content</h3>
+                <p>Lorem ipsum, dolor sit</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

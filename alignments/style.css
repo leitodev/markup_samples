@@ -1,0 +1,67 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Example 1 */
+
+#example1 .parent-block {
+    background: #333;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+#example1 .child-block {
+    background: #ff7505;
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: calc(50% - 125px);
+}
+
+/* END Example 1 */
+
+
+/* Example 2 */
+#example2 .parent-block {
+    background: #333;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+#example2 .child-block {
+    background: #dfdbd8;
+    width: 350px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+/* END Example 2 */
+
+
+
+/* Example 3 */
+#example3 .parent-block {
+    background: #333;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#example3 .child-block {
+    height: 100px;
+    width: 200px;
+    background: #dfdbd8;
+}
+/* END Example 3 */
