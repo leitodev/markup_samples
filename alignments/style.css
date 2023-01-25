@@ -10,7 +10,7 @@
     background: #333;
     height: 450px;
     width: 100%;
-    position: relative;
+    position: relative; 
 }
 
 #example1 .child-block {
@@ -65,3 +65,18 @@
     background: #dfdbd8;
 }
 /* END Example 3 */
+
+/* Example 4 */
+#example4 {
+    height: 400px;
+    background: #333;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+} 
+#example4 .child-block {
+    height: 100px;
+    width: 200px;
+    background: #dfdbd8;
+}
+/* END Example 4*/
