@@ -1,13 +1,31 @@
 * { 
     margin: 0px;
     padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-
+body{
+    background: #333;
+}
+h1{
+    text-align: center;
+    background-color: white;
+    box-shadow: black 0px 5px 15px;
+}
+a{
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    display: block;
+}
+.child-block{
+    box-shadow: black 0px 5px 15px; 
+    padding: 10px;
+    font-size: 18px;
+}
 /* Example 1 */
 
-#example1 .parent-block {
-    background: #333;
+#example1 .parent-block { 
     height: 450px;
     width: 100%;
     position: relative; 
@@ -28,8 +46,7 @@
 
 
 /* Example 2 */
-#example2 .parent-block {
-    background: #333;
+#example2 .parent-block { 
     height: 450px;
     width: 100%;
     position: relative;
@@ -50,8 +67,7 @@
 
 
 /* Example 3 */
-#example3 .parent-block {
-    background: #333;
+#example3 .parent-block { 
     height: 350px;
     width: 100%;
     display: flex;
@@ -60,23 +76,20 @@
 }
 
 #example3 .child-block {
-    height: 100px;
-    width: 200px;
+    height: 100px; 
     background: #dfdbd8;
 }
 /* END Example 3 */
 
 /* Example 4 */
 #example4 {
-    height: 400px;
-    background: #333;
+    height: 400px; 
     display: flex; 
     justify-content: center;
     align-items: center;
 } 
 #example4 .child-block {
-    height: 100px;
-    width: 200px;
-    background: #dfdbd8;
+    height: 100px; 
+    background: #dfdbd8; 
 }
 /* END Example 4*/
