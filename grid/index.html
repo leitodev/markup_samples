@@ -17,7 +17,7 @@
   </div>
   <hr>
 
-  <h1>grid-template-columns [1fr vs 3fr]</h1>
+  <h1>grid-template-columns [1fr 1fr 1fr 3fr]</h1>
   <div class="container-2">
       <div class="d1">1</div>
       <div class="d2">2</div>
@@ -35,6 +35,81 @@
       <div class="d4">4</div>
       <div class="d5">5</div>
   </div>
+
+  <h1>grid-template-columns [1fr 100px 50px auto 20%]</h1>
+  <div class="container-4">
+      <div class="d1">1</div>
+      <div class="d2">2</div>
+      <div class="d3">3</div>
+      <div class="d4">4</div>
+      <div class="d5">5</div>
+  </div>
+  <hr>
+
+  <h1>grid-column-gap 10% and grid-row-gap: 15px; (OR  grid-gap: 15px 10%; ) row first!</h1>
+  <div class="container-5">
+      <div class="d1">1</div>
+      <div class="d2">2</div>
+      <div class="d3">3</div>
+      <div class="d4">4</div>
+      <div class="d5">5</div>
+  </div>
+  <hr>
+
+  <h1>grid item-5 [grid-column: 2 / 4]</h1>
+  <div class="container-6">
+      <div class="d1">1</div>
+      <div class="d2">2</div>
+      <div class="d3">3</div>
+      <div class="d4">4</div>
+      <div class="d5 item-5">5</div>
+  </div>
+
+  <img id="grid-table-img" src="grid-table.png" alt="">
+  <hr>
+
+  <h1>grid item-5 [grid-column: 2 / 4] + [grid-row: 2 / 4]</h1>
+  <div class="container-7">
+      <div class="d1">1</div>
+      <div class="d2">2</div>
+      <div class="d3">3</div>
+      <div class="d4">4</div>
+      <div class="d5 item-5">5</div>
+  </div>
+  <hr>
+
+
+  <h1>[for item-3] justify-self: center; (start, center, end) default: stretch</h1>
+  <h2>[for item-5] align-self: center;</h2>
+  <div class="container-8">
+      <div class="d1">1</div>
+      <div class="d2">2</div>
+      <div class="d3 item-3"><b>item-3</b></div>
+      <div class="d4">4</div>
+      <div class="d5 item-5"><b>item-5</b></div>
+  </div>
+  <hr>
+
+  <h1>[for container] justify-items: center; (<b>move all the items in our grid to the desired alignment.</b>)</h1>
+  <div class="container-9">
+      <div class="d1">1</div>
+      <div class="d2">2</div>
+      <div class="d3">3</div>
+      <div class="d4">4</div>
+      <div class="d5">5</div>
+  </div>
+  <hr>
+
+  <h1>[for container] align-items: end; (<b>vertical alignment for all the items in our grid.</b>)</h1>
+  <div class="container-10">
+      <div class="d1">1</div>
+      <div class="d2">2</div>
+      <div class="d3">3</div>
+      <div class="d4">4</div>
+      <div class="d5">5</div>
+  </div>
+  <hr>
+
 
 </body>
 </html>
