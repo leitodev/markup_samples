@@ -112,3 +112,36 @@ hr {
     align-items: end;
 }
 
+.container-11 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #999;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 10px 10px;
+
+    grid-template-areas:
+      "header1 header2 header3"
+      "advert content content"
+      "footer footer footer";
+
+
+}
+
+.container-11 .header1 {
+    grid-area: header1;
+}
+
+.container-11 .header2 {
+    grid-area: header2;
+}
+
+.container-11 .header3 {
+    grid-area: header3;
+}
+.container-11 .footer {
+    grid-area: footer;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+}
+
