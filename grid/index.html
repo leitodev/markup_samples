@@ -122,6 +122,51 @@
   </div>
   <hr>
 
+  <h1>[for item-5] grid-area shorts 2 / 1 / 3 / 4; // row start, column start, row end, column end </h1>
+  <div class="container-12">
+      <div class="d1">1</div>
+      <div class="d2">2</div>
+      <div class="d3">3</div>
+      <div class="d4">4</div>
+      <div class="d1 item-5"> grid-area: 2 / 1 / 3 / 4; // row start, column start, row end, column end</div>
+  </div>
+  <hr>
+
+    <h1>Using the repeat Function ()</h1>
+    <h2>grid-template-columns: repeat(3, 1fr); === rid-template-columns: 1fr, 1fr, 1fr;</h2>
+    <h2>grid-template-rows: repeat(100, 50px); </h2>
+    <hr>
+
+    <h1>Limit Item Size Using the minmax Function</h1>
+    <h2>grid-template-columns: repeat(3, minmax(90px , 1fr));</h2>
+  <hr>
+  <br>
+    <h1>[Create Flexible Layouts Using auto-fill] grid-template-columns: auto-fill</h1>
+      <div class="container-13">
+          <div class="d1">1</div>
+          <div class="d2">2</div>
+          <div class="d3">3</div>
+          <div class="d4">4</div>
+          <div class="d1">5</div>
+          <div class="d3">6</div>
+          <div class="d1">1</div>
+          <div class="d2">2</div>
+          <div class="d3">3</div>
+          <div class="d4">4</div>
+      </div>
+      <hr>
+
+  <h1>[Using auto-fit] grid-template-columns: auto-fit</h1>
+  <h2>stretches your items to fit the size of the container.</h2>
+  <div class="container-14">
+      <div class="d1">1</div>
+      <div class="d2">2</div>
+      <div class="d3">3</div>
+      <div class="d4">4</div>
+  </div>
+  <hr>
+
+
 
 </body>
 </html>

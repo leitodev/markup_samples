@@ -145,3 +145,36 @@ hr {
     font-size: 40px;
 }
 
+.container-12 {
+    font-size: 40px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-gap: 10px;
+}
+
+.container-12 .item-5 {
+    grid-area: 2 / 1 / 3 / 4;
+}
+
+.container-13 {
+    font-size: 40px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px , 1fr ));
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-gap: 10px;
+}
+
+.container-14 {
+    font-size: 40px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px , 1fr ));
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-gap: 10px;
+}
